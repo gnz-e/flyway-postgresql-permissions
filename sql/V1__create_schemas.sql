@@ -1,0 +1,2 @@
+CREATE SCHEMA IF NOT EXISTS biblioteca;
+CREATE SCHEMA IF NOT EXISTS administracion;

@@ -1,0 +1,10 @@
+# Configuración de ejemplo para Flyway
+
+[environments.default]
+url="jdbc:postgresql://HOST:PUERTO/NOMBRE_DB"
+user="TU_USUARIO_AQUI"
+password="TU_PASSWORD_AQUI"
+schemas=["public"]
+
+[flyway]
+locations=["filesystem:sql", "filesystem:repeatable"]
